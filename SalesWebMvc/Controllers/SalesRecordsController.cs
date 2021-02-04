@@ -9,5 +9,11 @@ namespace SalesWebMvc.Controllers {
         public IActionResult Index() {
             return View();
         }
+        public IActionResult SimpleSearch() {
+            return View();
+        }
+        public IActionResult GroupingSearch() {
+            return View();
+        }
     }
 }
